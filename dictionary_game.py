@@ -1,5 +1,6 @@
-grocery_items = {1: 'test'} # empty dictionary to store items
+grocery_items = {1: 'test'} # empty dictionary to store items, first item added for testing
 
+# allows the user to set a key for the item entered into dictionary
 def enter_key():
     while True:
         try:
@@ -16,4 +17,17 @@ def enter_key():
             continue
 
 
-print(enter_key())
+# allows user to enter an item to be entered into the dictionary
+def enter_item():
+    while True:
+        try:
+            get_item = input('Enter a grocery item to add to the list: ')
+            for item in grocery_items:
+                if get_item in grocery_items:
+                    print('Item already in dictionary.. try again\n')
+                    continue
+                else:
+                     return get_item
+            
+        except:
+            print('Something wrong occurred... try again\n')
