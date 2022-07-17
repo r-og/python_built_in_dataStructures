@@ -16,3 +16,12 @@ Task: dictionary_game.py
     a dictionary.
 2. The user will select a key, key should not be in the dictionary already
 ----------------------------------------------------------------------
+
+
+______________________________________________________________________
+Task: set_game.py
+
+1. This program will use a list first to store words entered by a user
+2. The program will then turn the list into a set so that no duplicated answers are found.
+3. Useless program but this is just for myself to get experience with sets
+----------------------------------------------------------------------
